@@ -5,11 +5,11 @@
 
 :root {
   /* Brand Colors */
-  --c-primary: #3f7b1e;
-  --c-primary-light: #4c9424;
-  --c-primary-dark: #326218;
-  --c-accent: #18e25b;
-  --c-accent-light: #1dff6d;
+  --c-primary: #4338ca;
+  --c-primary-light: #5043f2;
+  --c-primary-dark: #362da2;
+  --c-accent: #10b981;
+  --c-accent-light: #13de9b;
   
   /* Neutral Colors */
   --c-white: #ffffff;
@@ -37,7 +37,7 @@
   --sp-24: 6rem;
   
   /* Typography */
-  --font-body: Georgia, 'Times New Roman', serif;
+  --font-body: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
   --font-display: var(--font-body);
   --font-mono: 'SF Mono', Monaco, monospace;
   
