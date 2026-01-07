@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="de" class="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Professionelle Dienstleistungen für Ihr Unternehmen.">
+  <title>Meine Website</title>
+  
+  <!-- Favicon -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏢</text></svg>">
+  
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/tokens.css">
+  <link rel="stylesheet" href="css/components.css">
+</head>
+<body>
+  <!-- Skip Link -->
+  <a href="#main" class="skip-link">Zum Inhalt springen</a>
+  
+  <!-- Header -->
+  <header class="header" id="header">
+    <div class="container">
+      <div class="header__inner">
+        <a href="/" class="header__brand">
+          <div class="header__logo">BF</div>
+          <span class="header__name">Firmenname</span>
+        </a>
+        
+        <nav class="header__nav" id="main-nav">
+        <a href="#leistungen" class="header__nav-link">Leistungen</a>
+        <a href="#über-uns" class="header__nav-link">Über uns</a>
+        <a href="#kontakt" class="header__nav-link">Kontakt</a>
+          <button class="header__dark-toggle" id="dark-toggle" aria-label="Dark Mode umschalten">🌙</button>
+          <a href="#kontakt" class="header__cta btn btn--primary">Anfrage</a>
+        </nav>
+        
+        <button class="header__toggle" id="menu-toggle" aria-label="Menü öffnen" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+    
+    <!-- Mobile Navigation -->
+    <nav class="header__mobile-nav" id="mobile-nav" aria-hidden="true">
+        <a href="#leistungen" class="header__mobile-link">Leistungen</a>
+        <a href="#über-uns" class="header__mobile-link">Über uns</a>
+        <a href="#kontakt" class="header__mobile-link">Kontakt</a>
+      <a href="#kontakt" class="btn btn--primary">Anfrage</a>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero" id="main">
+    <div class="container">
+      <div class="hero__inner">
+        <div class="hero__content">
+          <h1 class="hero__title">Headline die den Nutzen zeigt</h1>
+          <p class="hero__text">Ein bis zwei Sätze die erklären was Sie machen und warum der Besucher bei Ihnen richtig ist.</p>
+          <div class="hero__actions">
+            <a href="#kontakt" class="btn btn--primary">Jetzt starten</a>
+            <a href="#leistungen" class="btn btn--secondary">Mehr erfahren</a>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </section>
+
+  <!-- Trust Bar -->
+  <section class="trust">
+    <div class="container">
+      <div class="trust__inner">
+        <div class="trust__item">
+          <div class="trust__value">500+</div>
+          <div class="trust__label">Kunden</div>
+        </div>
+        <div class="trust__item">
+          <div class="trust__value">25+</div>
+          <div class="trust__label">Jahre Erfahrung</div>
+        </div>
+        <div class="trust__item">
+          <div class="trust__value">98%</div>
+          <div class="trust__label">Zufriedenheit</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section class="services" id="leistungen">
+    <div class="container">
+      <div class="section-header">
+        <h2>Unsere Leistungen</h2>
+        <p>Was wir für Sie tun können</p>
+      </div>
+      <div class="services__grid">
+        <div class="service-card">
+          <div class="service-card__icon">📊</div>
+          <h3>Leistung 1</h3>
+          <p>Beschreibung der ersten Leistung.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-card__icon">💼</div>
+          <h3>Leistung 2</h3>
+          <p>Beschreibung der zweiten Leistung.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-card__icon">🎯</div>
+          <h3>Leistung 3</h3>
+          <p>Beschreibung der dritten Leistung.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Benefits -->
+  <section class="benefits">
+    <div class="container">
+      <div class="section-header">
+        <h2>Warum wir?</h2>
+      </div>
+      <div class="benefits__grid">
+        <div class="benefit">
+          <div class="benefit__icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+          </div>
+          <div>
+            <h4>Unabhängig</h4>
+            <p>Wir beraten neutral und in Ihrem Interesse.</p>
+          </div>
+        </div>
+        <div class="benefit">
+          <div class="benefit__icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+          </div>
+          <div>
+            <h4>Persönlich</h4>
+            <p>Ein fester Ansprechpartner für alle Fragen.</p>
+          </div>
+        </div>
+        <div class="benefit">
+          <div class="benefit__icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+          </div>
+          <div>
+            <h4>Erfahren</h4>
+            <p>Über 25 Jahre Branchenerfahrung.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Team -->
+  <section class="team" id="team">
+    <div class="container">
+      <div class="section-header">
+        <h2>Unser Team</h2>
+        <p>Die Menschen hinter dem Erfolg</p>
+      </div>
+      <div class="team__grid">
+        <div class="team-member">
+          <div class="team-member__image">
+            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/></svg>
+          </div>
+          <h4>Max Muster</h4>
+          <p class="team-member__role">Geschäftsführer</p>
+          <p class="team-member__bio">Gründer mit 20 Jahren Erfahrung.</p>
+        </div>
+        <div class="team-member">
+          <div class="team-member__image">
+            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/></svg>
+          </div>
+          <h4>Anna Beispiel</h4>
+          <p class="team-member__role">Beraterin</p>
+          <p class="team-member__bio">Spezialistin für Steuerfragen.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery -->
+  <section class="gallery">
+    <div class="container">
+      <div class="section-header">
+        <h2>Einblicke</h2>
+        <p>Impressionen aus unserem Alltag</p>
+      </div>
+      <div class="gallery__grid">
+        <div class="gallery__item">
+          <div class="gallery__placeholder"></div>
+        </div>
+        <div class="gallery__item">
+          <div class="gallery__placeholder"></div>
+        </div>
+        <div class="gallery__item">
+          <div class="gallery__placeholder"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section class="testimonials">
+    <div class="container">
+      <div class="section-header">
+        <h2>Das sagen unsere Kunden</h2>
+      </div>
+      <div class="testimonials__grid">
+        <div class="testimonial">
+          <div class="testimonial__stars">★★★★★</div>
+          <p class="testimonial__quote">"Die kompetente Beratung hat mir sehr geholfen. Ich kann die Firma wärmstens weiterempfehlen."</p>
+          <div class="testimonial__author">
+            <div class="testimonial__avatar">HP</div>
+            <div>
+              <div class="testimonial__name">Hans P.</div>
+              <div class="testimonial__role">Zufriedener Kunde</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="faq" id="faq">
+    <div class="container">
+      <div class="section-header">
+        <h2>Häufige Fragen</h2>
+        <p>Antworten auf die wichtigsten Fragen</p>
+      </div>
+      <div class="faq__list">
+        <details class="faq-item">
+          <summary>Wie läuft eine Erstberatung ab?</summary>
+          <div class="faq-item__answer">In einem kostenlosen Erstgespräch lernen wir uns kennen und besprechen Ihre Situation.</div>
+        </details>
+        <details class="faq-item">
+          <summary>Was kostet Ihre Dienstleistung?</summary>
+          <div class="faq-item__answer">Die Kosten richten sich nach dem Umfang. Gerne erstellen wir Ihnen eine unverbindliche Offerte.</div>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta" id="kontakt">
+    <div class="container">
+      <h2>Bereit loszulegen?</h2>
+      <p>Kontaktieren Sie uns für ein unverbindliches Gespräch.</p>
+      <div class="cta__actions">
+        <a href="tel:+4131XXXXXXX" class="btn btn--accent">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+          +41 31 XXX XX XX
+        </a>
+        <a href="mailto:info@example.ch" class="btn btn--secondary-light">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+          info@example.ch
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <div class="footer__logo">
+            <div class="footer__logo-icon">FI</div>
+            <span class="footer__logo-text">Firmenname</span>
+          </div>
+          <p class="footer__tagline">Ihr Partner für XYZ in der Region.</p>
+          <div class="footer__social">
+            
+            
+            
+          </div>
+        </div>
+        
+        <div class="footer__column">
+          <h4>Navigation</h4>
+          <ul>
+            <li><a href="#">Startseite</a></li>
+            <li><a href="#leistungen">Leistungen</a></li>
+            <li><a href="#kontakt">Kontakt</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer__column">
+          <h4>Rechtliches</h4>
+          <ul>
+            <li><a href="impressum.html">Impressum</a></li>
+            <li><a href="datenschutz.html">Datenschutz</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer__column">
+          <h4>Kontakt</h4>
+          <ul>
+            <li>Musterstrasse 123, 3000 Bern</li>
+            <li><a href="tel:+4131XXXXXXX">+41 31 XXX XX XX</a></li>
+            <li><a href="mailto:info@example.ch">info@example.ch</a></li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="footer__bottom">
+        <span>© 2026 Firmenname GmbH. Alle Rechte vorbehalten.</span>
+        <div class="footer__legal">
+          <a href="impressum.html">Impressum</a>
+          <a href="datenschutz.html">Datenschutz</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Cookie Banner -->
+  <div class="cookie-banner" id="cookie-banner">
+    <h4>Cookie-Einstellungen</h4>
+    <p>Wir verwenden Cookies, um Ihnen die bestmögliche Erfahrung zu bieten. <a href="/datenschutz.html">Mehr erfahren</a></p>
+    <div class="cookie-banner__actions">
+      <button class="cookie-banner__necessary" id="cookie-necessary">Nur notwendige</button>
+      <button class="cookie-banner__all" id="cookie-accept">Alle akzeptieren</button>
+    </div>
+  </div>
+  
+  <!-- Scripts -->
+  <script src="js/main.js"></script>
+</body>
+</html>
